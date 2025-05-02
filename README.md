@@ -1,28 +1,29 @@
 ## Pokémon Explorer
-Pokémon Explorer is an interactive web application that allows users to explore Pokémon data fetched from the PokeAPI. The app displays a list of Pokémon with essential details such as their names, images, and types. Users can search for Pokémon by name and filter them by type (e.g., Fire, Water, Grass).
+A responsive web application that allows users to browse, search, and discover Pokémon details. Includes a Random Pokémon feature for quick and engaging exploration.
 
 ## Features
--> Search Pokémon by name in real-time as you type.
+-> Search and View Pokémon
 
--> Filter Pokémon based on their type (e.g., Fire, Water, Electric, Grass).
+-> Browse Pokémon with detailed stats, types, abilities, and evolution info.
 
--> Display Pokémon name, image (sprite), type(s), and ID.
+## Favorite Pokémon
+-> Mark Pokémon as favorites to personalize your list.
 
--> Responsive Design ensures compatibility with mobile and desktop devices.
+## Random Pokémon Button
+-> Instantly fetches a random Pokémon from the Pokédex.
 
--> Loading states are displayed while data is being fetched from the PokeAPI.
+-> Positioned on the right side in desktop view
 
--> Error handling in case of failed API requests or missing data.
+-> Full-width and centered on mobile devices
 
-## Technologies Used
--> React – A JavaScript library for building user interfaces.
+-> Fully responsive for a smooth experience on all screen sizes
 
--> Tailwind CSS – A utility-first CSS framework for fast and flexible UI development.
+## Tech Stack
+-> ReactJS + Vite
 
--> PokeAPI – A public API to fetch Pokémon data.
+-> React Router
 
--> React Hooks – Used for state management and side effects within functional components.
+-> TailwindCSS
 
 ## Live Demo
-
-[Click here to view the demo](https://explorerpokemon.netlify.app/)
+Link to live demo https://advancedpokemon.netlify.app/
